@@ -29,7 +29,6 @@
 }
 
 /** Page header layout */
-
 .page-header-container {
     display: flex;
     justify-content: space-between;
@@ -39,4 +38,15 @@
 .header-nav ul {
     display: flex;
     gap: 3rem;
+}
+
+/** Hero layout */
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero-hook, .hero-media {
+    flex: 1;
 }

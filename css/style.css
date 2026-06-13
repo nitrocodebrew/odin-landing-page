@@ -16,6 +16,34 @@
 }
 
 /**
+ * Global styles and utilities
+ * ===========================
+ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, a:link, a:visited {
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/**
  * Flexbox layout techniques
  * =========================
  */

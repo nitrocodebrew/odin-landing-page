@@ -1,0 +1,16 @@
+/**
+ * Universal reset
+ * ===============
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: none;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}

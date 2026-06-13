@@ -40,13 +40,24 @@
     gap: 3rem;
 }
 
-/** Hero layout */
-.hero-container {
+/** Main layout technique - can be used interchangably */
+.hero-container,
+.proof-container,
+.cta-container {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
-.hero-hook, .hero-media {
+.hero-hook, .hero-media,
+.proof-container li {
     flex: 1;
+}
+
+.cta-copy {
+    flex: 4;
+}
+
+.cta-action {
+    flex: 2;
 }

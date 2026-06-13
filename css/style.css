@@ -14,3 +14,29 @@
 *::before, *::after {
     box-sizing: border-box;
 }
+
+/**
+ * Flexbox layout techniques
+ * =========================
+ */
+
+
+/** Global layout container */
+.container {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1400px;
+}
+
+/** Page header layout */
+
+.page-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 3rem;
+}

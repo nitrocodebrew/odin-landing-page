@@ -1,2 +1,3 @@
 # odin-landing-page
-Flexbox landing page from TOP Foundations course
+
+Flexbox landing page project from TOP Foundations course

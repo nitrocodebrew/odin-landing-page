@@ -37,10 +37,13 @@ html {
 a, a:link, a:visited {
     font-weight: inherit;
     text-decoration: none;
+    color: #97d1cb;
 }
 
 a:hover, a:active {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #ebc96b;
+    border-bottom: 1px dotted #ccc;
 }
 
 ol, ul {
@@ -81,6 +84,7 @@ a.logo:hover,
 a.logo:active {
     color: #aaaaaa;
     text-decoration: none;
+    border: none;
 }
 
 .header-nav ul li a,
@@ -98,6 +102,7 @@ a.logo:active {
 .header-nav ul li a:active {
     color: #fff;
     text-decoration: none;
+    border: none;
 }
 
 /**
@@ -155,6 +160,7 @@ a.hero-cta-primary:active {
     text-decoration: none;
     background-color: #97d1cb;
     color: #fff;
+    border: none;
 }
 
 .hero-media > img {
@@ -304,6 +310,7 @@ a.cta-link:hover,
 a.cta-link:active {
     text-decoration: none;
     background-color: #ebc96b;
+    border: none;
 }
 
 /**

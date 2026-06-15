@@ -176,6 +176,35 @@ a.hero-cta-primary:active {
 }
 
 /**
+ * Highlight
+ * =========
+ */
+
+#highlight {
+    padding: 3rem 0;
+    background-color: #f0f0f0;
+    color: #372d57;
+}
+
+blockquote p {
+    font-size: 1.75rem;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 2.25;
+}
+
+blockquote footer {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+blockquote footer cite {
+    padding: 1rem;
+    letter-spacing: -0.05rem;
+}
+
+/**
  * Flexbox layout techniques
  * =========================
  */

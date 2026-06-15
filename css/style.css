@@ -64,6 +64,7 @@ img {
 
 .hero-hook {
     padding-inline: 1rem;
+    text-align: center;
 }
 
 .hero-hook h1 {
@@ -205,6 +206,60 @@ blockquote footer cite {
 }
 
 /**
+ * Call to action
+ * ==============
+ */
+
+#cta {
+    padding: 3rem 0;
+}
+
+#cta h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.75rem;
+    font-weight: 900;
+    text-align: center;
+    color: #372d57;
+}
+
+.cta-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 4px double #ffffff;
+    background-color: #97d1cb;
+}
+
+.cta-copy p {
+    font-size: 1.15rem;
+    color: #ffffff;
+}
+
+a.cta-link,
+a.cta-link:link,
+a.cta-link:visited {
+    display: block;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.10rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: #f6830c;
+    color: #fff;
+    transition: all 0.25s ease-in-out 0.15s;
+}
+
+a.cta-link:hover,
+a.cta-link:active {
+    text-decoration: none;
+    background-color: #ebc96b;
+}
+
+/**
  * Flexbox layout techniques
  * =========================
  */
@@ -244,7 +299,7 @@ blockquote footer cite {
 }
 
 .cta-copy {
-    flex: 4;
+    flex: 5;
 }
 
 .cta-action {

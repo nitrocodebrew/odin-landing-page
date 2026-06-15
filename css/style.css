@@ -401,3 +401,7 @@ a.cta-link:active {
 .cta-action {
     flex: 2;
 }
+
+.cta-container {
+    justify-content: space-between;
+}

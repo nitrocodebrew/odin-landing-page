@@ -112,6 +112,68 @@ a.hero-cta-primary:active {
 }
 
 /**
+ * Social proof
+ * ============
+ */
+
+#proof {
+    padding: 3rem 0;
+    background-color: #f8f8f8;
+}
+
+#proof h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.75rem;
+    font-weight: 700;
+    text-align: center;
+    color: #372d57;
+}
+
+.proof-container {
+    padding-inline: 1rem;
+}
+
+.proof-container li {
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.10);
+    background: #ffffff;
+}
+
+.proof-stat, .proof-descr {
+    display: block;
+    text-align: center;
+}
+
+.proof-stat {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: -0.05rem;
+    background-image: linear-gradient(to bottom, #f6830c, #ebc96b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.proof-descr {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    color: #7b7b7b;
+}
+
+.proof-copy {
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    max-width: 800px;
+    font-size: x-small;
+    text-transform: uppercase;
+    text-align: center;
+    color: #aaaaaa;
+}
+
+/**
  * Flexbox layout techniques
  * =========================
  */

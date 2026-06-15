@@ -28,7 +28,10 @@
  */
 
 html {
+    font: 400 1em/1.75 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.03rem;
     scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
 }
 
 a, a:link, a:visited {
@@ -48,6 +51,64 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+/**
+ * Hero
+ * ====
+ */
+
+.hero {
+    padding: 3rem 0;
+}
+
+.hero-hook {
+    padding-inline: 1rem;
+}
+
+.hero-hook h1 {
+    margin-bottom: 1.5rem;
+    font-size: 3.15rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #372d57;
+}
+
+.hero-copy {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2;
+    color: #7b7b7b;
+}
+
+.hero-cta {
+    padding: 0.75rem 0;
+}
+
+a.hero-cta-primary,
+a.hero-cta-primary:link,
+a.hero-cta-primary:visited {
+    margin: 1.75rem 0;
+    padding: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.10rem;
+    line-height: 2;
+    background-color: #372d57;
+    color: #f2f2f2;
+    transition: all 0.25s ease-in-out 0.15s;
+}
+
+a.hero-cta-primary:hover,
+a.hero-cta-primary:active {
+    text-decoration: none;
+    background-color: #97d1cb;
+    color: #fff;
+}
+
+.hero-media > img {
+    margin: 0 auto;
 }
 
 /**

@@ -307,6 +307,38 @@ a.cta-link:active {
 }
 
 /**
+ * Page footer
+ * ===========
+ */
+
+.page-footer {
+    padding: 3rem 0;
+    background-color: #372d57;
+    border-top: 4px double #fff;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.10);
+    color: #f2f2f2;
+}
+
+
+.footer-copyright, .footer-note {
+    text-align: center;
+}
+
+.footer-copyright {
+    font-weight: 300;
+    color: #fff;
+}
+
+.footer-note {
+    margin-top: 1.5rem;
+    display: block;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.10rem;
+    color: #aaaaaa;
+}
+
+/**
  * Flexbox layout techniques
  * =========================
  */

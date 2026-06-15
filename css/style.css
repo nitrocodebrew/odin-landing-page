@@ -54,6 +54,53 @@ img {
 }
 
 /**
+ * Page header
+ * ===========
+ */
+
+.page-header {
+    position: sticky;
+    top: 0;
+    border-bottom: 3px double #ffffff;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.10);
+    background-color: #372d57;
+    z-index: 2;
+}
+
+a.logo,
+a.logo:link,
+a.logo:visited {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.10rem;
+    color: #ffffff;
+    transition: all 0.25s ease-in-out 0.15s;
+}
+
+a.logo:hover,
+a.logo:active {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.header-nav ul li a,
+.header-nav ul li a:link,
+.header-nav ul li a:visited {
+    font-size: 0.9rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    color: #97d1cb;
+    transition: all 0.25s ease-in-out 0.15s;
+}
+
+.header-nav ul li a:hover,
+.header-nav ul li a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+/**
  * Hero
  * ====
  */

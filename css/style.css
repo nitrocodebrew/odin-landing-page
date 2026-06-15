@@ -95,6 +95,8 @@ a.hero-cta-primary:visited {
     text-transform: uppercase;
     letter-spacing: 0.10rem;
     line-height: 2;
+    border-radius: 12px;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.10);
     background-color: #372d57;
     color: #f2f2f2;
     transition: all 0.25s ease-in-out 0.15s;
